@@ -1,0 +1,17 @@
+{
+  "name": "action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^3.3.1",
+    "console-log-level": "^1.4.1"
+  }
+}
