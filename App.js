@@ -22,6 +22,7 @@ function check() {
 }
 
 async function getOwner() {
+  console.log(new Date())
   return await octokit.request('GET /user')
     .then(res => {
       octokit.log.debug(res.data)
